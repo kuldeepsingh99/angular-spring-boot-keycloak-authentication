@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <h1 class="center">Welcome to Manager section</h1>
+    </div>
+    <div class="text-center">
+        <div class="admin-header"  *ngFor="let item of managerData; index as i" >
+                <div>{{item.id}}</div>
+                <div>{{item.name}}</div>
+                <div>{{item.managerRole}}</div>
+                <div>{{item.address}}</div>
+        </div>
+    </div>
+</div>

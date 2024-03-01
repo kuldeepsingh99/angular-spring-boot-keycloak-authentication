@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <h1 class="center">Welcome to admin section</h1>
+    </div>
+    <div class="text-center">
+        <div class="admin-header"  *ngFor="let item of adminData; index as i" >
+                <div>{{item.id}}</div>
+                <div>{{item.name}}</div>
+                <div>{{item.role}}</div>
+        </div>
+    </div>
+</div>
